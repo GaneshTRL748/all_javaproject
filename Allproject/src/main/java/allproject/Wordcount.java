@@ -12,6 +12,10 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Map.Entry;
 public class Wordcount{
+	private Wordcount()
+	{
+		
+	}
 	static PrintStream out=new PrintStream(new FileOutputStream(FileDescriptor.out));
 	    static HashMap<String,Integer> frequency=new HashMap<>();
 	    static  String[] temp = null;
