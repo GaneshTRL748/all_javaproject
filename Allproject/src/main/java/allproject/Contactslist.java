@@ -3,7 +3,7 @@ import java.io.FileDescriptor;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.util.Scanner;
-public class Contactslist {
+class Contactslist {
 	static PrintStream out=new PrintStream(new FileOutputStream(FileDescriptor.out));
 	private static Scanner p;
 	public static void contact() {
